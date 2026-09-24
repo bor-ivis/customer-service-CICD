@@ -13,7 +13,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @AutoConfigureMockMvc
 @Transactional //Transactional för att ''rollback'' på allt i den riktiga db
 class CustomerIntegrationTest {
-
+//test for lappy
     @Autowired
     private MockMvc mockMvc;
 

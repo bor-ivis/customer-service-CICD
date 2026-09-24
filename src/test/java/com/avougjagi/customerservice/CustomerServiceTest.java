@@ -15,7 +15,7 @@ import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
-//test for CI
+
 @ExtendWith(MockitoExtension.class)
 class CustomerServiceTest {
 

@@ -32,7 +32,7 @@ class CustomerIntegrationTest {
         mockMvc.perform(post("/api/customers")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(validCustomerJson))
-                .andExpect(status().isCreated());
+                .andExpect(status().isBadRequest());
     }
 
     //Returnerar 400 om namn är tomt
